@@ -1,0 +1,67 @@
+.head-container{
+    background-image: url('https://media.istockphoto.com/id/1320974305/vector/blue-gradient-wall-studio-empty-room-abstract-background-with-lighting-and-space-for-your.jpg?s=612x612&w=0&k=20&c=-8C9hYZXzxjqINlaqgWrsg8EdTreJLCDP0MS2OfOMmI=');
+    height: 60vh;
+    width: 25%;
+    background-size: cover;
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+.head-option{
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.option{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'roboto' 'sans-serif';
+    font-size: 20px;
+    align-self: center;
+    margin-right: 30px;
+}
+.step{
+    font-family: "roboro" sans-serif;
+    font-size: 15px;
+    color: rgb(181, 179, 179);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.a{
+    background-color: rgb(190, 244, 226);
+    color: black;
+    border: none;
+}
+.b{
+    background-color: rgb(190, 244, 226);
+    color: black;
+    border: none;
+}
+.c{
+    background-color: rgb(190, 244, 226);
+    color: black;
+    border: none;
+}
+.d{
+    background-color: rgb(190, 244, 226);
+    color: black;
+    border: none;
+}
+.option-txt{
+     
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    font-family:"Roboto" 'sans-serif';
+    margin-top: 5px;
+    padding-top: 0px;
+}
+ 

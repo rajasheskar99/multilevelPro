@@ -1,0 +1,74 @@
+.personal-bg{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(212, 244, 233);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.right-sec{
+    width: 55%;
+}
+.card{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    border-radius: 20px;
+}
+.card-head{
+    font-family: "roboro" sans-serif;
+    font-size: 32px;
+    color:   rgb(15, 15, 62);
+    margin-bottom: 0;
+    padding-bottom: 0;
+     
+}
+.caption{
+    font-family: "roboro" sans-serif;
+    font-size: 17px;
+    color: rgb(171, 169, 169);
+    margin-top: 8px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+.lable{
+    font-family: "roboro" sans-serif;
+    font-size: 18px;
+}
+.input{
+    border:1px solid rgb(171, 169, 169);
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    border-radius: 8px;
+    width:85%;
+    font-size: 16px;
+}
+.btn-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.btn{
+    background-color:rgb(15, 15, 93);
+    color: white;
+    font-family: "roboro" sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+   
+}
+.b{
+    margin-left: auto;
+}

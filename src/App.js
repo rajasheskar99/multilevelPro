@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+
+import {BrowserRouter ,  Route, Routes} from 'react-router-dom'
+import PersonalInfo from './components/PersonalInfo'
+import SelectPlan from './components/SelectPlan'
+import AddOne from './components/AddOne'
+import Summury from './components/Summury'
+ 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App=()=> {
+  return (   
+    <BrowserRouter>
+    <Routes>
+     <Route path='/' element={<PersonalInfo/>}/>
+     <Route path='/plan' element={<SelectPlan/>}/>
+     <Route path='/add' element={<AddOne/>}/>
+     <Route path='/summury' element={<Summury/>}/>
+    </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
+
+ 
+ 
+ 

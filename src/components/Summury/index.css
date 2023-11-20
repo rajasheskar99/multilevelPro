@@ -1,0 +1,142 @@
+.personal-bg{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(212, 244, 233);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.right-sec{
+    width: 55%;
+}
+.card{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    border-radius: 20px;
+}
+.card-head{
+    font-family: "roboro" sans-serif;
+    font-size: 32px;
+    color:   rgb(15, 15, 62);
+    margin-bottom: 0;
+    padding-bottom: 0;
+     
+}
+.caption{
+    font-family: "roboro" sans-serif;
+    font-size: 17px;
+    color: rgb(171, 169, 169);
+    margin-top: 8px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+ 
+.btn-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    
+}
+.btn4{
+    background-color:rgb(24, 24, 113);
+    color: white;
+    font-family: "roboro" sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.btn4:hover{
+    background-color:rgb(126, 126, 201);
+}
+.btn-back3{
+    color: black;
+    font-family: "roboro" sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.plans-sec{
+    display: flex;
+    flex-direction: row;
+}
+ 
+.add-ons-bg1{
+    
+    padding: 10px 20px;
+    line-height: 0.6;
+    border-radius: 8px;
+    width: 80%;
+    margin-bottom:20px;
+    background-color: rgb(246, 249, 249);
+
+}
+.finish-card{
+    display: flex;
+    
+}
+.check-head{
+    font-family: "roboto" sans-serif;
+    font-size: 18px;
+    color: #032152;
+}
+.k-money{
+    font-family: "roboto" sans-serif;
+    font-size: 18px;
+    color: #032152;
+    font-weight:bold;
+    margin-left: auto;
+}
+.fin-dec{
+    font-family: "roboto" sans-serif;
+    font-size: 14px;
+    columns:  rgb(171, 169, 169);
+}
+.fin-dec{
+    font-family: "roboto" sans-serif;
+    font-size: 15px;
+    color:  rgb(171, 169, 169);
+    font-weight: 520;
+}
+.line{
+    border: 1px solid rgb(171, 169, 169);  
+    margin-top:20px ;
+}
+.fin-dec{
+    font-family: "roboto" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color:  rgb(171, 169, 169);
+}
+.fin-money{
+    font-family: "roboto" sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color:  black;
+    margin-left: auto;
+    
+}
+.fin-money1{
+    font-family: "roboto" sans-serif;
+    font-size: 19px;
+    font-weight: 550;
+    color: rgb(88, 88, 232);
+    margin-left: auto;
+    margin-right: 79px;
+    
+}
